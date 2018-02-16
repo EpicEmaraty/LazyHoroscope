@@ -11,9 +11,9 @@ int main()
   string last;
   int number;
   //get user input
-  cout<<"Enter your first name: ";
+  cout<<"Enter your first name: "<<endl;
   cin>> first;
-  cout<<"Enter your last name: ";
+  cout<<"Enter your last name: "<<endl;
   cin>> last;
   //tell fortune
   cout<<"Welcome, "<<first[0]<<"."<<last[0]<<"., here is your fortune..." <<endl;
